@@ -1,7 +1,7 @@
 """
-clean_and_analyse.py
+prepare_and_analyse.py
 
-Cleans and analyses NESO's Historic GB Generation Mix dataset
+Prepares and analyses NESO's Historic GB Generation Mix dataset
 (https://www.neso.energy/data-portal/historic-generation-mix).
 
 Filters the raw half-hourly data down to the most recent 5 years, aggregates
