@@ -31,7 +31,7 @@ The same analysis was independently reproduced in Python to validate the Excel f
 ![Monthly Renewable Share](seasonality_renewable.png)
 
 ## Tools
-Excel (pivot tables, formulas, charts, dashboard layout). Python (data processing — script included).
+Excel (pivot tables, formulas, charts, dashboard layout). Python (data analysis — script included).
 
 ## Author
 Katie Lovell — Maths & Physics student, University of Liverpool.
