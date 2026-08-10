@@ -24,6 +24,12 @@ Nuclear's share of generation is consistently lower from November to March (~12-
 **3. Autumn has the highest gas dependency (31.7%), despite Winter having the highest demand**
 Total demand peaks in Winter, as expected. However, gas's *share* of the generation mix peaks in Autumn, not Winter — suggesting winter's additional demand is met more by wind than by gas, while Autumn (a transitional season with typically weaker wind and solar output) relies more heavily on gas to fill the gap. This complicates the common "cold weather drives gas use" assumption and shows the value of testing it against the data directly.
 
+## Python Cross-Check
+The same analysis was independently reproduced in Python to validate the Excel findings. Correlation was calculated at two different levels of granularity — Excel's dashboard uses the daily-averaged dataset (-0.87), while the Python figure (-0.86) was calculated on the raw half-hourly data before aggregation. The near-identical result across both confirms the relationship holds regardless of aggregation level.
+
+![Renewable vs Carbon Intensity](renewable_vs_carbon.png)
+![Monthly Renewable Share](seasonality_renewable.png)
+
 ## Tools
 Excel (pivot tables, formulas, charts, dashboard layout). Python (data processing — script included).
 
