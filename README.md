@@ -1,7 +1,7 @@
 # GB Electricity Generation Mix — 5-Year Analysis (2021-2026)
 
 ## Overview
-An Excel-based analysis and dashboard exploring 5 years of daily electricity generation data for Great Britain, analysing the relationship between renewable generation, carbon intensity, and seasonal demand patterns. ![Dashboard](dashboard.png)
+An Excel-based analysis and dashboard exploring 5 years of daily electricity generation data for Great Britain, analysing the relationship between renewable generation, carbon intensity, and seasonal demand patterns.
 
 ## Data Source
 [National Energy System Operator (NESO) — Historic GB Generation Mix](https://www.neso.energy/data-portal/historic-generation-mix), released under the NESO Open Data Licence. The full NESO dataset runs from 2009 onward; this project uses a 5-year subset (2021-2026).
