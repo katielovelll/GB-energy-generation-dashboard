@@ -7,11 +7,12 @@ An Excel-based analysis and dashboard exploring 5 years of daily electricity gen
 [National Energy System Operator (NESO) — Historic GB Generation Mix](https://www.neso.energy/data-portal/historic-generation-mix), released under the NESO Open Data Licence. The full NESO dataset runs from 2009 onward; this project uses a 5-year subset (2021-2026).
 
 ## Methodology
-- Structured ~1,827 days of generation-mix data (by fuel type: gas, coal, nuclear, wind, hydro, solar, biomass, etc.) in Excel
-- Built pivot tables to summarise generation mix, renewable share, and carbon intensity by season and by month
-- Calculated correlation between `RENEWABLE_perc` and `CARBON_INTENSITY` using Excel's `CORREL` function
-- Built a scatter chart, seasonal demand/gas combo chart, and monthly nuclear-output chart to visualise patterns
-- Assembled findings into a single-page dashboard with KPI summary cards
+-Structured ~1,827 days of daily GB generation-mix data (by fuel type: gas, coal, nuclear, wind, hydro, solar, biomass, imports, etc.) in Excel, covering 2021–2026
+-Built pivot tables to summarise generation mix, renewable share, carbon intensity, and gas share by year and by season
+-Calculated the correlation between RENEWABLE_perc and CARBON_INTENSITY using Excel's CORREL function
+-Built four visualisations: a bar chart of average generation mix by source, a year-by-year carbon intensity chart, a renewable-vs-carbon-intensity scatter chart, and a seasonal demand/gas share combo chart
+-Assembled findings into a single-page dashboard with four KPI summary cards (5-year average renewable share, 5-year average carbon intensity, renewable–carbon intensity correlation, and highest-gas-share season)
+-Note: figures throughout refer to electricity generation (what power stations produced), not final demand met — the two differ slightly due to transmission losses, station own-use, and interconnector imports/exports
 
 ## Key Findings
 
